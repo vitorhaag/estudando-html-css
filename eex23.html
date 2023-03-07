@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        nav{
+            background-color: ghostwhite;
+            padding: 3px;
+           
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(204, 21, 21);
+            font-weight:bold ;
+            margin-right: 22px;
+            
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(229, 229, 238);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(230, 230, 238);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes politica tecnologia</p>
+
+        </section>
+
+        <section id="noticias">
+                <article>
+                    <h2>noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio veritatis perspiciatis accusantium fugit nesciunt quisquam corrupti, at ipsum perferendis repellat et pariatur, provident inventore aut unde placeat! Quibusdam, quasi quod.</p>
+
+                    <aside>
+                        <p>artigo escrito por josé da silva</p>
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+  
+    
+</body>
+</html>

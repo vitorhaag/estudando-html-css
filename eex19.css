@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, rgb(128, 164, 231), white) ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1#principal{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(164, 182, 65);
+}
+h1{
+    color: rgb(48, 182, 48);
+    text-shadow: 0.5px  0.5px  1px  rgba(0, 0, 0, 0.63);
+}
+h2{
+    color: rgb(165, 192, 12);
+    text-shadow: 0.5px  0.5px  1px  rgba(107, 124, 8, 0.74);
+}
+.basico{
+    color: rgb(192, 150, 12);
+    text-shadow: 0.5px  0.5px  1px  rgba(0, 0, 0, 0.74);
+ 
+}
+
+
+.intermed{
+    color: rgb(38, 0, 255);
+    text-shadow: 0.5px  0.5px  1px  rgba(0, 0, 0, 0.74);
+
+}
+.avancado{
+    color: rgb(255, 49, 135);
+    text-shadow: 0.5px  0.5px  1px  rgba(0, 0, 0, 0.74);
+    
+}
